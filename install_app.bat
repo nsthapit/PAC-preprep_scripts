@@ -17,12 +17,12 @@ if "%1"=="ncentral" (
     
 ) else if "%1"=="sid" (
     echo Doing SID Change.
-    .\sidchgl64-3.0j.exe -KEY=7qrd3-Knjvx-iC5dq-tJ /F /S
+    .\sidchgl64-3.0j.exe -KEY=7qrd3-Knjfx-iC5dq-sf /F /S
     
 ) else if "%1"=="all" (
     echo Install Ncentral and SID Change.
     .\100WindowsAgentSetup_VALID_UNTIL_2024_09_18.exe /quiet
-    .\sidchgl64-3.0j.exe -KEY=7qrd3-Knjvx-iC5dq-tJ /F /S
+    .\sidchgl64-3.0j.exe -KEY=7qrd3-Knjfx-iC5dq-sf /F /S
     
 ) else (
     echo Invalid option.
